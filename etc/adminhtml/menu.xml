@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Okalm_Merchandizing::Merchandizing" title="Merchandizing" module="Okalm_Merchandizing" sortOrder="60" parent="Magento_Backend::content" resource="Okalm_Merchandizing::config" />
+        <add id="Okalm_Merchandizing::Config" title="Manage Product Promotions Index" module="Okalm_Contest" sortOrder="0" parent="Okalm_Merchandizing::Merchandizing" action="merchandizing/config/launch" resource="Okalm_Contest::contests"/>
+    </menu>
+</config>
